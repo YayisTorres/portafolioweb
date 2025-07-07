@@ -1,5 +1,6 @@
 # 🌐 Portafolio Web — Dayanira Torres Quiroz
-
+tambien lo puedes ver en:
+https://yayistorres.github.io/portafolioweb/
 ---
 
 ## 📌 Descripción
@@ -7,8 +8,7 @@
 **Portafolio Web** es un sitio desarrollado en **HTML5**, **CSS3** y **Bootstrap 5** que presenta información profesional, académica y de proyectos realizados de forma estructurada y responsiva.  
 
 El objetivo es disponer de una **carta de presentación profesional en línea** que permita mostrar experiencia, habilidades y proyectos de forma elegante y accesible.
-tambien lo puedes ver en:
-https://yayistorres.github.io/portafolioweb/
+
 ---
 
 ## 📦 Instalación
