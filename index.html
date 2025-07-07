@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/styleWeb.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#home">Mi Portafolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+              <li class="nav-item"><a class="nav-link" href="#education">Educación</a></li>
+              <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+   <!-- Sección de héroe -->
+<header id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <div class="profile-image-container mb-4">
+          <img src="./img2/aiease_1751603219590.png" alt="Mi foto" class="profile-image">
+        </div>
+        <h1 class="fw-bold text-white mb-3">Guadalupe Dayanira Torres Quiroz</h1>
+        <p class="lead text-white mb-4">Ingeniera en Sistemas Computacionales</p>
+        <div class="social-icons mb-4">
+          <a href="https://www.linkedin.com/in/tu-linkedin" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/tu-github" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/tu-twitter" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-lg mt-3">Contáctame</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+          <h2 class="section-title text-center mb-5">Sobre Mí</h2>
+          <div class="row align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <div class="about-image-container">
+                <img src="./img2/aiease_1751603219590.png" alt="Mi foto" class="img-fluid rounded-circle">
+              </div>
+            </div>
+            <div class="col-lg-7">
+             <div class="about-content">
+  <p class="lead mb-4">Apasionada por la tecnología y el desarrollo de soluciones digitales, con experiencia en creación de aplicaciones web y gestión de bases de datos. Interesada en aplicar la tecnología como herramienta para resolver necesidades reales y mejorar procesos en distintos ámbitos.</p>
+  <p>Con una actitud proactiva y un enfoque autodidacta, disfruto aprender nuevas herramientas, lenguajes y metodologías que permitan mantenerme al día en un entorno tecnológico en constante evolución. Comprometida con el trabajo en equipo y la construcción de proyectos que generen impacto positivo y aporten valor.</p>
+  <div class="mt-4">
+    <a href="#contact" class="btn btn-primary">Contáctame</a>
+    <a href="#projects" class="btn btn-outline-primary ms-3">Ver Proyectos</a>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="skills" class="skills-section py-5">
+        <div class="container">
+          <h2 class="section-title text-center mb-5">Mis Habilidades</h2>
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="skill-category">
+                <h3 class="skill-category-title">
+                  <i class="fas fa-code skill-icon"></i>
+                  Desarrollo Frontend
+                </h3>
+                <ul class="skill-list">
+                  <li class="skill-item">HTML5 / CSS3</li>
+                  <li class="skill-item">JavaScript (ES6+)</li>
+                  <li class="skill-item">React</li>
+                  <li class="skill-item">Vue.js</li>
+                  <li class="skill-item">Responsive Design</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="skill-category">
+                <h3 class="skill-category-title">
+                  <i class="fas fa-server skill-icon"></i>
+                  Desarrollo Backend
+                </h3>
+                <ul class="skill-list">
+                  <li class="skill-item">Node.js</li>
+                  <li class="skill-item">Express.js</li>
+                  <li class="skill-item">Python</li>
+                  <li class="skill-item">Java</li>
+                  <li class="skill-item">RESTful APIs</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="skill-category">
+                <h3 class="skill-category-title">
+                  <i class="fas fa-database skill-icon"></i>
+                  Bases de Datos y Herramientas
+                </h3>
+                <ul class="skill-list">
+                  <li class="skill-item">MySQL</li>
+                  <li class="skill-item">MongoDB</li>
+                  <li class="skill-item">PostgreSQL</li>
+                  <li class="skill-item">Git / GitHub</li>
+                  <li class="skill-item">Docker</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+   <!-- Sección de Educación -->
+   <section id="education" class="education-section">
+    <div class="container">
+      <h2 class="section-title">Historial Académico</h2>
+      <div class="education-list">
+        <div class="education-item">
+          <div class="education-year">2020-2024</div>
+          <div class="education-content">
+            <h3 class="education-degree">Ingeniería en Sistemas Computacionales</h3>
+            <h4 class="education-institution">Instituto Tecnológico de Oaxaca</h4>
+            <ul class="education-details">
+              <li>Especialización en Desarrollo de Software</li>
+              <li>Proyecto de tesis: "Implementación de Inteligencia Artificial en Sistemas de Gestión Empresarial"</li>
+              <li>Participación en hackathons y competencias de programación</li>
+            </ul>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="education-year">2022</div>
+          <div class="education-content">
+            <h3 class="education-degree">Certificación en Desarrollo Web Full Stack</h3>
+            <h4 class="education-institution">Platzi</h4>
+            <ul class="education-details">
+              <li>Dominio de tecnologías front-end y back-end</li>
+              <li>Desarrollo de proyectos prácticos con React y Node.js</li>
+            </ul>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="education-year">2023</div>
+          <div class="education-content">
+            <h3 class="education-degree">Certificación en Base de Datos Oracle</h3>
+            <h4 class="education-institution">Oracle University</h4>
+            <ul class="education-details">
+              <li>Administración y optimización de bases de datos Oracle</li>
+              <li>Diseño e implementación de soluciones de alta disponibilidad</li>
+              <li>Desarrollo de procedimientos almacenados y triggers avanzados</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Sección de Experiencia Laboral -->
+    <section id="experience" class="experience-section">
+      <div class="container">
+          <h2 class="section-title">Experiencia Laboral</h2>
+          <div class="experience-grid">
+              <div class="experience-card">
+                  <div class="experience-header">
+                      <h3 class="experience-title">Desarrollador Full Stack</h3>
+                      <span class="experience-company">TechInnovate Solutions, Oaxaca</span>
+                  </div>
+                  <p class="experience-date">Enero 2023 - Presente</p>
+                  <ul class="experience-list">
+                      <li>Desarrollo de aplicaciones web utilizando React y Node.js</li>
+                      <li>Implementación de arquitecturas serverless con AWS Lambda</li>
+                      <li>Optimización de rendimiento y escalabilidad de aplicaciones existentes</li>
+                  </ul>
+              </div>
+              <div class="experience-card">
+                  <div class="experience-header">
+                      <h3 class="experience-title">Pasante de Desarrollo de Software</h3>
+                      <span class="experience-company">OaxacaTech Startups, Oaxaca</span>
+                  </div>
+                  <p class="experience-date">Junio 2022 - Diciembre 2022</p>
+                  <ul class="experience-list">
+                      <li>Colaboración en el desarrollo de una plataforma de e-learning</li>
+                      <li>Implementación de funcionalidades front-end con Vue.js</li>
+                      <li>Participación en reuniones de planificación y revisión de sprints</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+          <h2 class="section-title">Mis Proyectos</h2>
+          <div class="projects-grid">
+              <div class="project-card">
+                  <div class="project-image">
+                      <img src="/img2/inv.webp" alt="Sistema de Gestión de Inventarios">
+                  </div>
+                  <div class="project-content">
+                      <h3 class="project-title">Sistema de Gestión de Inventarios</h3>
+                      <p class="project-description">Aplicación web para la gestión eficiente de inventarios en pequeñas empresas.</p>
+                      <a href="#" class="project-link">Ver más</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <div class="project-image">
+                      <img src="/img2/learn.webp" alt="Plataforma de Aprendizaje en Línea">
+                  </div>
+                  <div class="project-content">
+                      <h3 class="project-title">Plataforma de Aprendizaje en Línea</h3>
+                      <p class="project-description">Sistema de cursos en línea con funcionalidades de video streaming y evaluaciones interactivas.</p>
+                      <a href="#" class="project-link">Ver más</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <div class="project-image">
+                      <img src="/img2/healt.jpg" alt="App de Seguimiento de Hábitos">
+                  </div>
+                  <div class="project-content">
+                      <h3 class="project-title">App de Seguimiento de Hábitos</h3>
+                      <p class="project-description">Aplicación móvil para el seguimiento y formación de hábitos saludables.</p>
+                      <a href="#" class="project-link">Ver más</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <div class="project-image">
+                      <img src="/img2/restaurant.png" alt="Sistema de Reservas para Restaurantes">
+                  </div>
+                  <div class="project-content">
+                      <h3 class="project-title">Sistema de Reservas para Restaurantes</h3>
+                      <p class="project-description">Plataforma web para la gestión de reservas y pedidos en línea para restaurantes.</p>
+                      <a href="#" class="project-link">Ver más</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <div class="project-image">
+                      <img src="/img2/dataAnalytics.jpg" alt="Dashboard de Análisis de Datos">
+                  </div>
+                  <div class="project-content">
+                      <h3 class="project-title">Dashboard de Análisis de Datos</h3>
+                      <p class="project-description">Interfaz interactiva para visualización y análisis de datos empresariales en tiempo real.</p>
+                      <a href="#" class="project-link">Ver más</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <div class="project-image">
+                      <img src="/img2/homework.png" alt="Aplicación de Gestión de Tareas Colaborativa">
+                  </div>
+                  <div class="project-content">
+                      <h3 class="project-title">Aplicación de Gestión de Tareas Colaborativa</h3>
+                      <p class="project-description">Herramienta para la gestión de proyectos y tareas en equipo con funcionalidades en tiempo real.</p>
+                      <a href="#" class="project-link">Ver más</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- Sección de Contacto -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Contáctame</h2>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Información de Contacto</h3>
+        <ul class="contact-list">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Oaxaca, México</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+52 951 3271977</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>torresquirozdayanira@gmail.com</span>
+          </li>
+        </ul>
+        <ul class="social-links">
+          <li><a href="https://www.linkedin.com/in/tu-linkedin" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/tu-github" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://x.com/tu-twitter" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
