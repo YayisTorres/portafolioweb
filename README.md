@@ -155,7 +155,7 @@ Uso libre para fines educativos, demostrativos o como base para tus propios port
 
 ---
 
-## 📞 Contacto
+## Autor
 
 Autor: **Dayanira Torres Quiroz**  
 Correo: **torresquirozdayanira@gmail.com**
