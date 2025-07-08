@@ -41,7 +41,7 @@ El proyecto usa **Bootstrap 5** y **CSS personalizado** para darle un aspecto mo
 
 ### 📍 Vista Hero  
 ![Hero]([![Hero](https://github.com/YayisTorres/portafolioweb/blob/main/imgmd/parte1.png)
-![Hero]([https://github.com/YayisTorres/portafolioweb/blob/main/imgmd/parte2.png)
+![Hero](https://github.com/YayisTorres/portafolioweb/blob/main/imgmd/parte2.png)
 
 ### 📍 Sección Proyectos  
 ![Proyectos](https://github.com/YayisTorres/portafolioweb/blob/main/imgmd/parte3.png)
