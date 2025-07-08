@@ -1,5 +1,6 @@
 # 🌐 Portafolio Web — Dayanira Torres Quiroz
-
+tambien lo puedes ver en:
+https://yayistorres.github.io/portafolioweb/
 ---
 
 ## 📌 Descripción
@@ -39,13 +40,14 @@ El proyecto usa **Bootstrap 5** y **CSS personalizado** para darle un aspecto mo
 ## 📸 Capturas de Pantalla
 
 ### 📍 Vista Hero  
-![Hero](img/)
+![Hero]([![Hero](https://github.com/YayisTorres/portafolioweb/blob/main/imgmd/parte1.png)
+![Hero]([https://github.com/YayisTorres/portafolioweb/blob/main/imgmd/parte2.png)
 
 ### 📍 Sección Proyectos  
-![Proyectos](img/captura_proyectos.png)
+![Proyectos](https://github.com/YayisTorres/portafolioweb/blob/main/imgmd/parte3.png)
 
 ### 📍 Consola del Navegador  
-![Consola JS](img/captura_consola.png)
+![Consola JS](https://github.com/YayisTorres/portafolioweb/blob/main/imgmd/parte4.png)
 
 ---
 
@@ -147,7 +149,6 @@ A partir de los estilos CSS y el uso de Bootstrap, el sitio está dividido en va
 - Los estilos personalizados sobreescriben y complementan Bootstrap para dar identidad visual única y coherente al portafolio, con colores corporativos, animaciones y efectos suaves.  
 - Se aplican buenas prácticas de accesibilidad y diseño UI/UX para mejorar la experiencia.
 
-
 ## 📑 Licencia
 
 Uso libre para fines educativos, demostrativos o como base para tus propios portafolios.
@@ -160,6 +161,10 @@ Autor: **Dayanira Torres Quiroz**
 Correo: **torresquirozdayanira@gmail.com**
 
 ---
+
+
+
+ 
 
 
 
